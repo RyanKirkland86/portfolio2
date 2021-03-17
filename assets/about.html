@@ -3,76 +3,79 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Ryan Kirkland</title>
+
+        <link rel="stylesheet" href="style.css">
+
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+
         <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
-        <link rel="stylesheet" type="text/css" href="assets/style.css">
+
+        <title>About Me - Ryan Kirkland</title>
     </head>
     <body>
-      <nav class="navbar is-warning" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-          <a class="navbar-item" href="index.html">
-            <h1 class="title">
-            Ryan Kirkland
-            </h1>
-          </a>
-      
-          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
-        </div>
-      
-        <div id="navbarBasicExample" class="navbar-menu">
-          <div class="navbar-start">
-            <a class="navbar-item">
-              About Me
-            </a>
-      
-            <a class="navbar-item">
-              Portfolio & Resume
-            </a>
+      <section class="hero has-bg-img is-fullheight">
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <p class="title">
+                About Me
+            </p>
+            <p>
+              <a href="about.html" class="button is-info is-light is-rounded aboutButton ">ABOUT ME</a>
+              <a href="portfolio.html" class="button is-info is-light is-rounded portfolioButton">PROJECTS</a>
+              <a href="contact.html" class="button is-info is-light is-rounded contactButton">CONTACT ME</a>
+            </p>
+            <br>
+            <!-- Adding below here -->
 
-            <a class="navbar-item">
-              Contact
-            </a>
-          </div>
-        </div>
-      </nav>
-      <section class="section">
-        <div class="container">
-          <div class="box">
-            <h1 class="title">
-              About Me
-            </h1>
-            <p class="subtitle">
-              I might actually fill out my bio this time!
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="section">
-        <div class="container">
-          <div class="box">
-            <h1 class="title">
-              Portfolio & Resume
-            </h1>
-            <p class="subtitle">
-              Project links etc.
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="section">
-        <div class="container">
-          <div class="box">
-            <h1 class="title">
-              Contact
-            </h1>
-            <p class="subtitle">
-              Email and social media links.
-            </p>
+            <div class="container is-fluid">
+              <div class="tile is-ancestor">
+                <div class="tile is-4 is-vertical is-parent">
+                  <div class="tile is-child box has-text-centered box">
+                    <img src="../assets/Images/200 Square Headshot.jpg" id="photo is-centered"></img>
+                  </div>
+                  <div class="tile is-child has-text-centered box">
+                    <p class="subtitle"><strong>Education</strong></p>
+                    <ul class="skills">
+                      <strong>
+                        <li>UC Berkeley Extension:<br>
+                      </strong>
+                      <i>Full Stack Web Development</i><br>
+                      December 2020 - March 2021
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="tile is-parent">
+                  <div class="tile is-child box has-text-centered horizontal">
+                    <p class="title">Ryan Kirkland</p>
+                    <p>
+                      I was born and raised in a small lakeside town in Southern California. My formative years were spent participating
+                      in any music activity I could get into. I've been playing trumpet since I was 10 and it was my life for many years,
+                      carrying me through most of college, and taking me across the country and to several foreign countries. For a long
+                      time I believed this was my path in life, but towards the end of college (and around the time of the recession in 2008)
+                      I realized that I career in music wasn't for me.
+
+                      With the 
+                    </p>
+                    <HR>
+                    <p class="subtitle"><strong>Languages and skills</strong></p>
+                    <ul class="skills">
+          
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>JavaScript</li>
+                      <li>JQUERY</li>
+                      <li>JSON</li>
+                      <li>Server Side API</li>
+                      <li>Client Side Storage</li>
+                      <li>Front End Web Development</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            <!-- Adding above here -->
+            <br>
           </div>
         </div>
       </section>
