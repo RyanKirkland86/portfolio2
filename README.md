@@ -6,7 +6,7 @@ This is a mobile-first dynamic portfolio page. Bulma was utilized as a styling f
 
 [Deployed Link](https://ryankirkland86.github.io/portfolio2/)
 
-![Image]()
+![Image](https://github.com/RyanKirkland86/portfolio2/blob/main/assets/Images/UpdatedPortfolio2.png)
 
 ## Technologies Used:
 
